@@ -112,11 +112,9 @@ main
 - [x] Git repository initialized
 - [x] .gitignore created
 - [x] README created
-- [ ] First commit
-- [ ] GitHub repository connected
-- [ ] Branching strategy applied
-
-
+- [x] First commit
+- [x] GitHub repository connected
+- [x] Branching strategy applied
 
 ## Roadmap
 
@@ -132,5 +130,5 @@ main
 
 **Mariam Mahrous**
 
-GitHub: 
+GitHub: https://github.com/MariamMahrous
 
