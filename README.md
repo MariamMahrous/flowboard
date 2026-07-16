@@ -104,33 +104,33 @@ main
 
 ### Phase 0 – Environment & Scaffolding
 
-- [x] Laravel API created
-- [x] React application created
+- [x] PHP 8.3+ development environment configured (Laravel Herd)
+- [x] MySQL configured
+- [x] Redis configured (PhpRedis)
+- [x] Laravel 13 API created
+- [x] React 19 + Vite + TypeScript application created
 - [x] Backend and frontend connected
-- [x] API endpoint tested
+- [x] API endpoint (`/api/ping`) tested successfully
 - [x] CORS configured
+- [x] Environment variables configured (.env)
 - [x] Git repository initialized
-- [x] .gitignore created
+- [x] Branching strategy applied
 - [x] README created
-- [ ] First commit
-- [ ] GitHub repository connected
-- [ ] Branching strategy applied
+- [x] Initial commit pushed to GitHub
 
+## Project Progress
 
-
-## Roadmap
-
-- [x] Phase 0 – Environment & Scaffolding
-- [ ] Phase 1 – Authentication
-- [ ] Phase 2 – Core Domain & CRUD
-- [ ] Phase 3 – Redis
-- [ ] Phase 4 – Realtime Collaboration
-- [ ] Phase 5 – Polish & Depth
-- [ ] Phase 6 – Production Readiness
+- ✅ Phase 0 – Environment & Scaffolding (Completed)
+- ⏳ Phase 1 – Authentication
+- ⏳ Phase 2 – Workspace & Boards
+- ⏳ Phase 3 – Lists
+- ⏳ Phase 4 – Cards
+- ⏳ Phase 5 – Drag & Drop
+- ⏳ Phase 6 – Real-time Updates
+- ⏳ Phase 7 – Polish & Deployment
 
 ## Author
 
 **Mariam Mahrous**
 
-GitHub: 
-
+GitHub: https://github.com/MariamMahrous
