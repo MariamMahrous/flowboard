@@ -118,13 +118,28 @@ main
 - [x] README created
 - [x] Initial commit pushed to GitHub
 
+
+### Phase 1 – Authentication
+
+- [x] Laravel Sanctum installed
+- [x] User registration
+- [x] User login
+- [x] User logout
+- [x] API token authentication
+- [x] Form Request validation
+- [x] Password hashing
+- [x] Email Verification
+- [x] Resend Verification Email
+- [ ] Forgot password
+- [ ] Reset password
+
 ## Project Progress
 
 - ✅ Phase 0 – Environment & Scaffolding (Completed)
 - ⏳ Phase 1 – Authentication
 - ⏳ Phase 2 – Workspace & Boards
 - ⏳ Phase 3 – Lists
-- ⏳ Phase 4 – Cards
+- ⏳ Phase 4 – Card
 - ⏳ Phase 5 – Drag & Drop
 - ⏳ Phase 6 – Real-time Updates
 - ⏳ Phase 7 – Polish & Deployment

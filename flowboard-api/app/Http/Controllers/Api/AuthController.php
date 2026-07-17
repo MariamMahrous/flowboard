@@ -8,6 +8,7 @@ use App\Http\Requests\Auth\RegisterRequest;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use Illuminate\Auth\Events\Registered;
 
 
 class AuthController extends Controller
@@ -20,8 +21,9 @@ public function register(RegisterRequest $request){
         'password'=>$request->password,
    
     ]);
+    event(new Registered($user));
     return response()->json([
-        'message'=>'User registered successfully',
+       'message' => 'User registered successfully. Please verify your email address.',
         'user'=>$user
     ],201);
     
